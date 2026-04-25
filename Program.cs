@@ -2,6 +2,7 @@ using NicosCardapio.API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 builder.Services.AddControllers();
 builder.Services.AddScoped<ICardapioService, CardapioService>();
 builder.Services.AddEndpointsApiExplorer();
@@ -11,7 +12,12 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
     {
-        policy.AllowAnyOrigin()
+        policy.WithOrigins(
+                "https://nicoscardapio-api.onrender.com",
+                "http://localhost:5000",
+                "https://localhost:7152",
+                "http://localhost:7152"
+              )
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
@@ -19,8 +25,13 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-app.UseSwagger();
-app.UseSwaggerUI();
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
