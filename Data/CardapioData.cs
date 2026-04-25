@@ -15,55 +15,54 @@ public static class CardapioData
                 Icone = "🍺",
                 Itens = new List<Item>
                 {
-                    // Bohemia
                     new Item { Id = 1,  Nome = "Bohemia Litrinho",        Preco = 3.50m,  SubCategoria = "Bohemia" },
-                    // Brahma
+                   
                     new Item { Id = 2,  Nome = "Brahma Litrinho",         Preco = 3.00m,  SubCategoria = "Brahma" },
                     new Item { Id = 3,  Nome = "Brahma Litrão",           Preco = 10.00m, SubCategoria = "Brahma" },
                     new Item { Id = 4,  Nome = "Brahma Latão",            Preco = 5.00m,  SubCategoria = "Brahma" },
                     new Item { Id = 5,  Nome = "Brahma Zero",             Preco = 4.50m,  SubCategoria = "Brahma" },
-                    // Budweiser
+                    
                     new Item { Id = 6,  Nome = "Budweiser Litrinho",      Preco = 3.50m,  SubCategoria = "Budweiser" },
                     new Item { Id = 7,  Nome = "Budweiser Litrão",        Preco = 10.00m, SubCategoria = "Budweiser" },
                     new Item { Id = 8,  Nome = "Budweiser Latão",         Preco = 5.50m,  SubCategoria = "Budweiser" },
                     new Item { Id = 9,  Nome = "Budweiser Longnek",       Preco = 5.50m,  SubCategoria = "Budweiser" },
-                    // Corona
+                   
                     new Item { Id = 10, Nome = "Corona Latão",            Preco = 7.50m,  SubCategoria = "Corona" },
                     new Item { Id = 11, Nome = "Corona Longnek",          Preco = 7.50m,  SubCategoria = "Corona" },
                     new Item { Id = 12, Nome = "Corona Zero",             Preco = 7.50m,  SubCategoria = "Corona" },
-                    // Original
+                    
                     new Item { Id = 13, Nome = "Original Litrinho",       Preco = 4.00m,  SubCategoria = "Original" },
                     new Item { Id = 14, Nome = "Original Latão",          Preco = 6.00m,  SubCategoria = "Original" },
                     new Item { Id = 15, Nome = "Original 600ml",          Preco = 9.00m,  SubCategoria = "Original" },
-                    // Skol
+                    
                     new Item { Id = 16, Nome = "Skol Litrinho",           Preco = 3.00m,  SubCategoria = "Skol" },
                     new Item { Id = 17, Nome = "Skol Litrão",             Preco = 10.00m, SubCategoria = "Skol" },
                     new Item { Id = 18, Nome = "Skol Latão",              Preco = 5.00m,  SubCategoria = "Skol" },
-                    // Spaten
+                    
                     new Item { Id = 19, Nome = "Spaten 600ml",            Preco = 11.00m, SubCategoria = "Spaten" },
                     new Item { Id = 20, Nome = "Spaten Latão",            Preco = 6.00m,  SubCategoria = "Spaten" },
-                    // Stella
+                    
                     new Item { Id = 21, Nome = "Stella Latão",            Preco = 7.00m,  SubCategoria = "Stella Artois" },
                     new Item { Id = 22, Nome = "Stella Gold",             Preco = 7.50m,  SubCategoria = "Stella Artois" },
                     new Item { Id = 23, Nome = "Stella 600ml",            Preco = 13.00m, SubCategoria = "Stella Artois" },
                     new Item { Id = 24, Nome = "Stella Longnek",          Preco = 6.50m,  SubCategoria = "Stella Artois" },
-                    // Amstel
+                    
                     new Item { Id = 25, Nome = "Amstel Litrão",           Preco = 10.00m, SubCategoria = "Amstel" },
                     new Item { Id = 26, Nome = "Amstel Latão",            Preco = 5.50m,  SubCategoria = "Amstel" },
                     new Item { Id = 27, Nome = "Amstel Ultra",            Preco = 5.50m,  SubCategoria = "Amstel" },
                     new Item { Id = 28, Nome = "Amstel 600",              Preco = 9.00m,  SubCategoria = "Amstel" },
-                    // Heineken
+                    
                     new Item { Id = 29, Nome = "Heineken Latão",          Preco = 7.00m,  SubCategoria = "Heineken" },
                     new Item { Id = 30, Nome = "Heineken 600ml",          Preco = 13.00m, SubCategoria = "Heineken" },
                     new Item { Id = 31, Nome = "Heineken Longnek",        Preco = 7.00m,  SubCategoria = "Heineken" },
                     new Item { Id = 32, Nome = "Heineken Zero Lata",      Preco = 6.00m,  SubCategoria = "Heineken" },
                     new Item { Id = 33, Nome = "Heineken Zero Long",      Preco = 7.50m,  SubCategoria = "Heineken" },
-                    // Baden / Eisenbahn
+                    
                     new Item { Id = 34, Nome = "Baden IPA 350ml",         Preco = 6.50m,  SubCategoria = "Especiais" },
                     new Item { Id = 35, Nome = "Eisenbahn IPA",           Preco = 7.50m,  SubCategoria = "Especiais" },
                     new Item { Id = 36, Nome = "Eisenbahn Latão",         Preco = 5.00m,  SubCategoria = "Especiais" },
                     new Item { Id = 37, Nome = "Eisenbahn Long",          Preco = 6.00m,  SubCategoria = "Especiais" },
-                    // Outras
+                    
                     new Item { Id = 38, Nome = "Petra Latão",             Preco = 5.00m,  SubCategoria = "Outras" },
                     new Item { Id = 39, Nome = "Itaipava",                Preco = 4.50m,  SubCategoria = "Outras" },
                     new Item { Id = 40, Nome = "Praya",                   Preco = 8.00m,  SubCategoria = "Outras" },
